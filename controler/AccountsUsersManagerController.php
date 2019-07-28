@@ -92,7 +92,7 @@ function state()
 
     $statusManager = new MVC_project\model\ChatManager();
     $statusManager->state();
-    header('Location: view/chat/chat.php');
+    header('Location: http://localhost/MVC_project/view/chat/chat.php');
 
 }
 
@@ -102,7 +102,7 @@ function deconnexion()
     $deconnexion= new MVC_project\model\AccountsUsersManager();
     $deconnexion->delete_user($_SESSION["ip"]);
     $deconnexion->deconnexion();
-    header('Location: view/accountuser/login');
+    header('Location: http://localhost/MVC_project/view/accountuser/login');
 
 }
 
