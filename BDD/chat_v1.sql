@@ -1,6 +1,10 @@
 -- phpMyAdmin SQL Dump
 -- version 4.7.9
 -- https://www.phpmyadmin.net/
+
+
+CREATE DATABASE `chat_v1` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `chat_v1`;
 --
 -- Hôte : localhost
 -- Généré le :  sam. 27 juil. 2019 à 13:05
