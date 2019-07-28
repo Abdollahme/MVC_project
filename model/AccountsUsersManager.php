@@ -174,7 +174,7 @@ class AccountsUsersManager extends Manager
 
     function psw_verif() {
           $password = htmlspecialchars($_POST['password']);
-          $password_confirm = htmlspecialchars($_POST['password_confirm']);
+          $password_confirm = htmlspecialchars($_POST['passwordconfirm']);
             if ($password == $password_confirm) {
                 $psw_verif = true;
                 }

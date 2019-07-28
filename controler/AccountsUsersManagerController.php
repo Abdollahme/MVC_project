@@ -47,8 +47,8 @@ function register()
     switch($registersuccess){
     case 0:
     {
-        echo 'Ce pseudo existe déjà !';
-        header('Location: view/accountuser/register.php');
+        echo 'Ce pseudo existe déjà ! <a href="http://localhost/MVC_project/view/accountuser/register.php">Inscription</a>';
+
         break;
     }
     case 1:
@@ -58,15 +58,14 @@ function register()
     }
     case 2:
     {
-        echo 'Cet email existe déja !';
-        header('Location: view/accountuser/register.php');
+        echo 'Cet email existe déja ! <a href="http://localhost/MVC_project/view/accountuser/register.php">Inscription</a>';
+
         break;
 
     }
     case 3:
     {
-        echo 'mot de passe de confirmation incorrecte !';
-        header('Location: view/accountuser/register.php');
+        echo 'mot de passe de confirmation incorrecte ! <a href="http://localhost/MVC_project/view/accountuser/register.php">Inscription</a>';
         break;
     }
     }
