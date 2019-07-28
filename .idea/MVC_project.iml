@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jquery-3.3.1.slim" level="application" />
+    <orderEntry type="library" name="script" level="application" />
+    <orderEntry type="library" name="console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd" level="application" />
+    <orderEntry type="library" name="hoy3lrg" level="application" />
+    <orderEntry type="library" name="scriptchat" level="application" />
+    <orderEntry type="library" name="stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e" level="application" />
+    <orderEntry type="library" name="sf-websocket" level="application" />
+  </component>
+</module>
